@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fantômes : retrouvez les abonnements que vous payez sans vous en servir</title>
+<meta name="description" content="Déposez votre relevé bancaire : Fantômes liste vos abonnements oubliés, classés par coût annuel, avec la lettre de résiliation prête à envoyer.">
+<meta property="og:title" content="Fantômes : débusquez les abonnements que vous payez sans vous en servir">
+<meta property="og:description" content="Votre liste d'abonnements oubliés, classés par coût annuel, avec les lettres de résiliation prêtes.">
+<meta property="og:type" content="website">
+<style>
+:root{--encre:#14213D;--beurre:#F2C14E;--creme:#FBF6EA;--gris:#5B6275}
+*{box-sizing:border-box;margin:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--creme);color:var(--encre);line-height:1.5;font-size:18px}
+main{max-width:560px;margin:0 auto;padding:28px 20px 40px}
+.logo{font-family:Georgia,serif;font-weight:700;font-size:20px}
+h1{font-family:Georgia,serif;font-size:34px;line-height:1.15;margin:28px 0 14px}
+h2{font-family:Georgia,serif;font-size:24px;margin:36px 0 12px}
+p{color:var(--gris)}
+.cta{display:block;text-align:center;background:var(--beurre);color:var(--encre);font-weight:700;font-size:19px;text-decoration:none;padding:18px 16px;border-radius:14px;margin:22px 0 8px;border:2px solid var(--encre)}
+.petit{font-size:14px;text-align:center}
+.douleur{background:var(--encre);color:var(--creme);border-radius:14px;padding:20px;margin-top:28px}
+.douleur p{color:var(--creme)}
+.douleur strong{color:var(--beurre);font-size:26px;font-family:Georgia,serif}
+ul{list-style:none;padding:0}
+li{padding:14px 0;border-bottom:1px solid #E6DDC8}
+li b{display:block}
+footer{max-width:560px;margin:0 auto;padding:0 20px 40px;font-size:13px;color:var(--gris)}
+</style>
+</head>
+<body>
+<main>
+<div class="logo">Fantômes</div>
+<h1>Retrouvez les abonnements que vous payez sans vous en servir.</h1>
+<p>Déposez votre relevé bancaire. Vous obtenez la liste de vos prélèvements oubliés, classés par coût annuel, avec la lettre de résiliation prête à envoyer.</p>
+<a class="cta" href="STRIPE_LINK_ICI">Trouver mes fantômes : 19 €</a>
+<p class="petit">Paiement unique, sans abonnement. Satisfait ou remboursé.</p>
+
+<div class="douleur">
+<p><strong>120 € par an</strong></p>
+<p>C'est ce que coûte un seul abonnement à 9,99 € oublié. Ces petits prélèvements passent inaperçus sur un relevé, et tournent parfois pendant des années.</p>
+</div>
+
+<h2>Ce que vous recevez</h2>
+<ul>
+<li><b>La liste de vos fantômes</b>Chaque prélèvement régulier, classé par montant sur l'année, pas par mois.</li>
+<li><b>Une lettre de résiliation par abonnement</b>Prête à copier et à envoyer. Vous n'avez rien à rédiger.</li>
+<li><b>Le total que vous économisez</b>Le chiffre exact, sur 12 mois, mis à jour à chaque résiliation.</li>
+</ul>
+
+<h2>Comment ça se passe</h2>
+<p>Vous payez, puis vous recevez votre accès par email sous 48 h au plus tard. Si ce délai n'est pas tenu, vous êtes remboursé intégralement.</p>
+<a class="cta" href="STRIPE_LINK_ICI">Trouver mes fantômes : 19 €</a>
+</main>
+<footer>Mentions légales · CGV · Politique de confidentialité (à venir)</footer>
+</body>
+</html>

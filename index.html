@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
 <style>
 :root{--n:#14213D;--o:#FF6B2C;--b:#FAF7F2;--g:#6B6560}
 *{box-sizing:border-box;margin:0}
@@ -27,6 +28,7 @@ h2{font-family:Fraunces,Georgia,serif;font-size:24px;margin:34px 0 10px}
 ul{list-style:none;padding:0}
 li{padding:14px 0;border-top:1px solid #E4DED5}
 li b{display:block}
+.pay{margin-top:18px}
 footer{border-top:1px solid #E4DED5;padding:20px;text-align:center;font-size:14px}
 footer a{color:var(--g);margin:0 8px}
 </style>
@@ -51,8 +53,14 @@ footer a{color:var(--g);margin:0 8px}
 
 <h2 id="commencer">Accès anticipé</h2>
 <p>Panier Perdu ouvre aux premières boutiques. Tu rejoins la liste, et ton accès t'est livré par email sous 14 jours. Satisfait ou remboursé pendant 30 jours : écris-moi, je te rembourse.</p>
-<a class="btn" style="margin-top:16px"
-https://buy.stripe.com/fZucMYa5S1Hw5gG5nbcQU00 >Rejoindre l'accès anticipé</a>
+
+<div class="pay">
+<stripe-buy-button
+  buy-button-id="buy_btn_1UOGcn4oEuD1rQWdUu9WnFgL"
+  publishable-key="pk_live_51UMEHq4oEuD1rQWdYWpJm892rDcIwIEl3Z4KuFYHE3p5wB23Yp98VDXjqdm2mcxa8cqtYCl3qXTLiZWM9GzdzpRe002TW99bZG"
+>
+</stripe-buy-button>
+</div>
 <p class="small">Sans engagement, résiliable à tout moment.</p>
 </main>
 <footer>
